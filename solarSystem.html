@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<title>Solar System</title>
+</head>
+
+<body>
+<header>
+	<section id="page_title">SOLAR SYSTEM</section>
+	<nav class="planets" id="planets">
+		<ul>
+			<li id="current"><a href="#" id="menu_sun">Sun</a></li><br/>
+			<li><a href="#" id="menu_mercury">Mercury</a></li>
+			<li><a href="#" id="menu_venus">Venus</a></li>
+			<li><a href="#" id="menu_earth">Earth</a></li>
+			<li><a href="#" id="menu_mars">Mars</a></li>
+			<li><a href="#" id="menu_jupiter">Jupiter</a></li>
+			<li><a href="#" id="menu_saturn">Saturn</a></li>
+			<li><a href="#" id="menu_uranus">Uranus</a></li>
+			<li><a href="#" id="menu_neptune">Neptune</a></li>
+		</ul>
+	</nav>
+
+</header>
+
+	<section id="container">
+	
+		<section id="sun"></section>
+		<section  id="mercury" class="planet one normal_orbit">
+			<a href="" ></a>
+		</section>
+		<section class="planet normal_orbit" id="venus">
+			<a href="" ></a>
+		</section>
+		<section class="planet normal_orbit" id="earth">
+			<a href="" >
+				<span id="moon_orbit" class="planet">
+					<span id="moon"></span>
+				</span>
+			</a>
+		</section>
+		<section class="planet normal_orbit" id="mars">
+			<a href="" ></a>
+		</section>
+		<section class="planet normal_orbit" id="jupiter">
+			<a href="" ></a>
+		</section>
+		<section class="planet normal_orbit" id="saturn">
+			<a href="" >
+				<span id="ring"></span>			
+			</a>
+		</section>
+		<section class="planet normal_orbit" id="uranus">
+			<a href="" ></a>
+		</section>
+		<section class="planet normal_orbit" id="neptune">
+			<a href="" ></a>
+		</section>
+	</section>
+
+</body>
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="solarSystem.js" type="text/javascript"></script>
+
+</html>
